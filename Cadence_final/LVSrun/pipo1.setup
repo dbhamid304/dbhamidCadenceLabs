@@ -1,0 +1,17 @@
+case	"preserve"
+convertDot	"node"
+convertPin	"geometryAndText"
+hierDepth	32
+labelCase	"preserve"
+labelDepth	32
+library	"MyOpAmp"
+logFile	"/servers/esd_noida/steja/Basic_Analog_Flow/final/CAICDF/solutions/module6/LVSrun/PIPO1.LOG"
+maxVertices	2048
+pinAttNum	0
+runDir	"/servers/esd_noida/steja/Basic_Analog_Flow/final/CAICDF/solutions/module6/LVSrun"
+strmFile	"/servers/esd_noida/steja/Basic_Analog_Flow/final/CAICDF/solutions/module6/LVSrun/OpAmp.gds.gz"
+strmVersion	5
+techLib	"MyOpAmp"
+topCell	"OpAmp"
+view	"layout_placement"
+enableColoring

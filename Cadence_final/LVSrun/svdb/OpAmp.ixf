@@ -1,0 +1,20 @@
+# XXXX: Instance Cross Reference (ixf) (File format 1)
+# XXXX: Layout Primary OpAmp
+# XXXX: End of header.
+% MN 4 MN 4
+% MP 4 MP 4
+% M 4 M 4
+% OpAmp 6 OpAmp 6
+0 X59/M0 0 MM3  
+0 X58/M0 0 MM3==2  
+0 X61/M0 0 MM4  
+0 X57/M0 0 MM4==2  
+0 X54/M0 0 MM5 X
+0 X53/M0 0 MM6 X
+0 X64/M0 0 MM7  
+0 X62/M0 0 MM0  
+0 X63/M0 0 MM0==2  
+0 X60/M0 0 MM1  
+0 X56/M0 0 MM1==2  
+0 M0 0 MM2  
+0 X55/M0 0 MM8  

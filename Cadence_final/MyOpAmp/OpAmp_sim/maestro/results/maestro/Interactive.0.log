@@ -1,0 +1,16 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Thu Jul 25 20:17:57 2024 
+Best design point: 1
+Design specs: 
+	tran	corner	Nominal - 
+	Vout_dc		998.8m
+	Vin_dc		1
+	ac	corner	Nominal - 
+Design parameters: 
+
+Interactive.0
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.0 completed. 
+Current time: Thu Jul 25 20:18:37 2024 

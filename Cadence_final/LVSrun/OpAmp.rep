@@ -1,0 +1,28 @@
+			*****************************************************
+			**                                                 **
+			**                L V S  R E P O R T               **
+			**                                                 **
+			*****************************************************
+
+
+Report File Name         : OpAmp.rep
+ERC Summary File         : /servers/esd_noida/steja/Basic_Analog_Flow/final/CAICDF/solutions/module6/LVSrun/OpAmp.sum
+LVS Comparison Report    : OpAmp.rep.cls
+LVS Softchk Report       : OpAmp.softchk
+Layout Name              : /servers/esd_noida/steja/Basic_Analog_Flow/final/CAICDF/solutions/module6/LVSrun/OpAmp.gds.gz ("OpAmp")
+User Name                : steja
+Creation Time            : Sun Aug 11 22:59:34 2024
+Current directory        : /servers/esd_noida/steja/Basic_Analog_Flow/final/CAICDF/solutions/module6/LVSrun
+Pegasus Version          : 23.20-p013 Tue Jan 9 12:32:47 PST 2024
+
+
+			*****************************************************
+			**                                                 **
+			**            D E V E X T  R E P O R T             **
+			**                                                 **
+			*****************************************************
+
+
+    LVS_SOFTCHK psubstrate -TYPE CONTACT   Total Result        0 (       0)
+    LVS_SOFTCHK nwell_conn -TYPE CONTACT   Total Result        0 (       0)
+    LVS_SOFTCHK Nburied -TYPE CONTACT   Total Result        0 (       0)

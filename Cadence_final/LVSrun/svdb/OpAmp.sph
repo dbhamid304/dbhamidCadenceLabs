@@ -1,0 +1,18 @@
+# Placement Hierarchy File (sph)
+# 
+# 
+# 
+% OpAmp 6
+MM3 MN 4
+MM3==2 MN 4
+MM4 MN 4
+MM4==2 MN 4
+MM5 MN 4
+MM6 MN 4
+MM7 MN 4
+MM0 MP 4
+MM0==2 MP 4
+MM1 MP 4
+MM1==2 MP 4
+MM2 MP 4
+MM8 M 4

@@ -1,0 +1,8 @@
+# SVDB: Port Table (ports)
+# SVDB: Layout Primary OpAmp
+INP 3 INP 80 3710 metal2_conn
+IBIAS 6 IBIAS 80 11140 metal2_conn
+INN 4 INN 80 7430 metal2_conn
+VDD 1 VDD 10590 22200 metal2_conn
+OUT 7 OUT 21100 11180 metal2_conn
+VSS 5 VSS 10590 80 metal2_conn

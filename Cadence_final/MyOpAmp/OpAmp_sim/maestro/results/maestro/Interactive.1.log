@@ -1,0 +1,30 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Thu Jul 25 21:52:56 2024 
+Best design point: 1
+Design specs: 
+	tran	corner	Nominal - 
+	Vout_dc		1.004
+	Vin_dc		1
+	Slew Rate		48.49M	Near
+	Settling Time		23.62n	Yes
+	Pdiss		175.6u	Yes
+	Offset		3.641m	Yes
+	ac	corner	Nominal - 
+	UGB		116.4M	Yes
+	Av0		60.48	Yes
+Design parameters: 
+	MyOpAmp/OpAmp/schematic/M0  l		750n
+	MyOpAmp/OpAmp/schematic/M1  l		750n
+	MyOpAmp/OpAmp/schematic/M3  l		750n
+	MyOpAmp/OpAmp/schematic/M3  w		1.5u
+	MyOpAmp/OpAmp/schematic/M4  l		750n
+	MyOpAmp/OpAmp/schematic/M4  w		1.5u
+	MyOpAmp/OpAmp/schematic/M6  l		750n
+	MyOpAmp/OpAmp/schematic/M7  l		750n
+
+Interactive.1
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.1 completed. 
+Current time: Thu Jul 25 21:53:38 2024 

@@ -1,0 +1,72 @@
+# SVDB: Layout Netlist Names (lnn)
+# SVDB: Layout Primary OpAmp
+% M2_M1_CDNS_723397369280 1
+% M3_M2_CDNS_723397369282 1
+% M3_M2_CDNS_723397369283 1
+% M2_M1_CDNS_723397369284 1
+% M2_M1_CDNS_723397369285 1
+% M2_M1_CDNS_723397369286 1
+% M3_M2_CDNS_723397369287 1
+% M4_M3_CDNS_723397369289 1
+% M3_M2_CDNS_7233973692810 1
+% M4_M3_CDNS_7233973692811 1
+% M2_M1_CDNS_7233973692815 1
+% nmos2v_CDNS_723397369281 4
+1 G
+2 D_drain_1
+3 B_botTap
+4 S_source_0
+% nmos2v_CDNS_723397369282 4
+1 G
+2 S_source_1
+3 B_botTap
+4 D_drain_0
+% pmoscap2v_CDNS_723397369283 5
+1 S_source_0
+2 G
+3 D_drain_1
+4 B_tapRight
+% pmos2v_CDNS_723397369284 4
+1 B_topTap
+2 G
+3 D_drain_1
+% nmos2v_CDNS_723397369285 4
+1 D_drain_1
+2 B_botTap
+% nmos2v_CDNS_723397369286 4
+1 G
+2 S_source_0
+3 B_botTap
+% nmos2v_CDNS_723397369287 4
+1 D_drain_1
+2 G
+3 S_source_0
+4 B_botTap
+% pmos2v_CDNS_723397369288 4
+1 B_topTap
+2 S_source_0
+3 G
+% nmos2v_CDNS_723397369289 4
+1 S_source_0
+2 B_botTap
+% pmos2v_CDNS_7233973692810 5
+1 B_topTap
+2 S_source_0
+3 G
+4 D_drain_1
+% pmos2v_CDNS_7233973692811 5
+1 B_topTap
+2 S_source_0
+3 G
+% nmos2v_CDNS_7233973692812 4
+1 D_drain_0
+2 B_botTap
+3 G
+4 S_source_1
+% OpAmp 6
+1 VDD
+3 INP
+4 INN
+5 VSS
+6 IBIAS
+7 OUT

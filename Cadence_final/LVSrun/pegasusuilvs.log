@@ -1,0 +1,738 @@
+Running: /grid/cic/install_support/PEGASUS/PEGASUS23/PEGASUS23.20.000/lnx86/tools.lnx86/Pegasus/bin/64bit/pegasusvirt \
+  -isPegasus \
+  -mode lvs \
+  -global_log_file /servers/esd_noida/steja/Basic_Analog_Flow/final/CAICDF/solutions/module6/LVSrun/pegasusuilvs.log \
+  -control /servers/esd_noida/steja/Basic_Analog_Flow/final/CAICDF/solutions/module6/LVSrun/pegasuslvsctl \
+  -df2_version IC23.1.0 \
+  -run_dir /servers/esd_noida/steja/Basic_Analog_Flow/final/CAICDF/solutions/module6/LVSrun \
+  -no_rules_check \
+  -qrc_data \
+  -schLibName MyOpAmp \
+  -schCellName OpAmp \
+  -schViewName schematic \
+  -simViewList auCdl\ schematic \
+  -simStopList auCdl \
+  -source_cdl /servers/esd_noida/steja/Basic_Analog_Flow/final/CAICDF/solutions/module6/LVSrun/OpAmp.cdl \
+  -source_top_cell OpAmp \
+  -spice /servers/esd_noida/steja/Basic_Analog_Flow/final/CAICDF/solutions/module6/LVSrun/OpAmp.spi \
+  -layLibName MyOpAmp \
+  -layCellName OpAmp \
+  -layViewName layout_placement \
+  -igds /servers/esd_noida/steja/Basic_Analog_Flow/final/CAICDF/solutions/module6/LVSrun/OpAmp.gds.gz \
+  -layScale 0.0005 \
+  -layTechLib MyOpAmp \
+  -convertPin geometryAndText \
+  -replaceBusBitChar nil \
+  -noConvertHalfWidthPath nil \
+  -layHierDepth 32 \
+  -layMaxVertices 2048 \
+  -enableColoring yes \
+  -rulesFile /servers/esd_noida/steja/Basic_Analog_Flow/final/CAICDF/solutions/module6/LVSrun/.technology.rul \
+  -log_dir LOGS
+
+
+
+Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.08s.
+********************************************************************************
+Product   : Virtuoso(R) XStream Out
+Program   : @(#)$CDS: strmout version IC23.1-64b 07/09/2024 22:31 (cpgbld15) $
+          : sub-version  IC23.1-64b.ISR8.40 
+Started at: 11-Aug-2024  22:59:29
+User Name : steja
+Host Name : noivl-steja
+Directory : /servers/esd_noida/steja/Basic_Analog_Flow/final/CAICDF/solutions/module6
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+WARNING (XSTRM-20): Output Stream file '/servers/esd_noida/steja/Basic_Analog_Flow/final/CAICDF/solutions/module6/LVSrun/OpAmp.gds.gz' already exists. It will be overwritten.
+Loading gpdk045/libInit.il ...
+	Loading gpdk045/loadCxt.ile ... done!
+	Loading context 'gpdk045' from library 'gpdk045' ... done!
+	Loading context 'pdkUtils' from library 'gpdk045' ... done!
+	Loading gpdk045/gpdk045_customFilter.il ... done!
+	Loading gpdk045/libInitCustomExit.il ... 
+	Loading Environment Settings ...
+	Loading gpdk045/gpdk045_PDKRegistrations.il ... done!
+
+  *************************************************************           
+  *              Cadence Design Systems, Inc.                 *           
+  *                                                           *           
+  *                    Generic 45nm PDK                       *           
+  *                        (gpdk045)                          *           
+  *                                                           *           
+  *************************************************************           
+	
+
+	VERSION: 6.0 (09-September-2019)
+
+done!
+Loaded gpdk045/libInit.il successfully!
+INFO (XSTRM-217): Reading the layer map file, /servers/esd_noida/steja/Basic_Analog_Flow/final/CAICDF/GPDK045/gpdk045/gpdk045.layermap
+WARNING (XSTRM-333): The '-enableColoring' option will be ignored during XStream Out. This is because there is no color entry in the layer map and the object map file.
+INFO (XSTRM-280): The output file will be a compressed file because the file name has extension .gz
+INFO (XSTRM-162): You have not used the '-viaMap' option. If the OpenAccess design has native oaVia instances, use the '-viaMap' option for preserving oaVia instances in a XStream Out - XStream In round trip. Using the '-viaMap' option improves performance and VM usage of applications using the Streamed-In design.
+
+Summary of Options :
+library                                 MyOpAmp
+strmFile                                /servers/esd_noida/steja/Basic_Analog_Flow/final/CAICDF/solutions/module6/LVSrun/OpAmp.gds.gz
+topCell                                 OpAmp
+view                                    layout_placement
+runDir                                  /servers/esd_noida/steja/Basic_Analog_Flow/final/CAICDF/solutions/module6/LVSrun
+logFile                                 /servers/esd_noida/steja/Basic_Analog_Flow/final/CAICDF/solutions/module6/LVSrun/PIPO1.LOG
+techLib                                 MyOpAmp
+hierDepth                               32
+maxVertices                             2048
+layerMap                                /servers/esd_noida/steja/Basic_Analog_Flow/final/CAICDF/GPDK045/gpdk045/gpdk045.layermap
+userSkillFile                           /servers/esd_noida/steja/Basic_Analog_Flow/final/CAICDF/solutions/module6/LVSrun/strmout.il
+labelDepth                              32
+case                                    Preserve
+convertDot                              node
+convertPin                              geometryAndText
+
+INFO (XSTRM-223): 1. Translating stdVia gpdk045/M2_M1/layout as STRUCTURE M2_M1_CDNS_723397369280.
+INFO (XSTRM-223): 2. Translating stdVia gpdk045/M1_PO/layout as STRUCTURE M1_PO_CDNS_723397369281.
+INFO (XSTRM-223): 3. Translating stdVia gpdk045/M3_M2/layout as STRUCTURE M3_M2_CDNS_723397369282.
+INFO (XSTRM-223): 4. Translating stdVia gpdk045/M3_M2/layout as STRUCTURE M3_M2_CDNS_723397369283.
+INFO (XSTRM-223): 5. Translating stdVia gpdk045/M2_M1/layout as STRUCTURE M2_M1_CDNS_723397369284.
+INFO (XSTRM-223): 6. Translating stdVia gpdk045/M2_M1/layout as STRUCTURE M2_M1_CDNS_723397369285.
+INFO (XSTRM-223): 7. Translating stdVia gpdk045/M2_M1/layout as STRUCTURE M2_M1_CDNS_723397369286.
+INFO (XSTRM-223): 8. Translating stdVia gpdk045/M3_M2/layout as STRUCTURE M3_M2_CDNS_723397369287.
+INFO (XSTRM-223): 9. Translating stdVia gpdk045/M2_M1/layout as STRUCTURE M2_M1_CDNS_723397369288.
+INFO (XSTRM-223): 10. Translating stdVia gpdk045/M4_M3/layout as STRUCTURE M4_M3_CDNS_723397369289.
+INFO (XSTRM-223): 11. Translating stdVia gpdk045/M3_M2/layout as STRUCTURE M3_M2_CDNS_7233973692810.
+INFO (XSTRM-223): 12. Translating stdVia gpdk045/M4_M3/layout as STRUCTURE M4_M3_CDNS_7233973692811.
+INFO (XSTRM-223): 13. Translating stdVia gpdk045/M4_M3/layout as STRUCTURE M4_M3_CDNS_7233973692812.
+INFO (XSTRM-223): 14. Translating stdVia gpdk045/M3_M2/layout as STRUCTURE M3_M2_CDNS_7233973692813.
+INFO (XSTRM-223): 15. Translating stdVia gpdk045/M3_M2/layout as STRUCTURE M3_M2_CDNS_7233973692814.
+INFO (XSTRM-223): 16. Translating stdVia gpdk045/M2_M1/layout as STRUCTURE M2_M1_CDNS_7233973692815.
+INFO (XSTRM-223): 17. Translating cellview gpdk045/pmos2v/layout as STRUCTURE pmos2v_CDNS_723397369280.
+INFO (XSTRM-223): 18. Translating cellview gpdk045/nmos2v/layout as STRUCTURE nmos2v_CDNS_723397369281.
+INFO (XSTRM-223): 19. Translating cellview gpdk045/nmos2v/layout as STRUCTURE nmos2v_CDNS_723397369282.
+INFO (XSTRM-223): 20. Translating cellview gpdk045/pmoscap2v/layout as STRUCTURE pmoscap2v_CDNS_723397369283.
+INFO (XSTRM-223): 21. Translating cellview gpdk045/pmos2v/layout as STRUCTURE pmos2v_CDNS_723397369284.
+INFO (XSTRM-223): 22. Translating cellview gpdk045/nmos2v/layout as STRUCTURE nmos2v_CDNS_723397369285.
+INFO (XSTRM-223): 23. Translating cellview gpdk045/nmos2v/layout as STRUCTURE nmos2v_CDNS_723397369286.
+INFO (XSTRM-223): 24. Translating cellview gpdk045/nmos2v/layout as STRUCTURE nmos2v_CDNS_723397369287.
+INFO (XSTRM-223): 25. Translating cellview gpdk045/pmos2v/layout as STRUCTURE pmos2v_CDNS_723397369288.
+INFO (XSTRM-223): 26. Translating cellview gpdk045/nmos2v/layout as STRUCTURE nmos2v_CDNS_723397369289.
+INFO (XSTRM-223): 27. Translating cellview gpdk045/pmos2v/layout as STRUCTURE pmos2v_CDNS_7233973692810.
+INFO (XSTRM-223): 28. Translating cellview gpdk045/pmos2v/layout as STRUCTURE pmos2v_CDNS_7233973692811.
+INFO (XSTRM-223): 29. Translating cellview gpdk045/nmos2v/layout as STRUCTURE nmos2v_CDNS_7233973692812.
+INFO (XSTRM-223): 30. Translating cellview MyOpAmp/OpAmp/layout_placement as STRUCTURE OpAmp.
+INFO (XSTRM-180): You have not used the '-objectMap' option. The design has instance(s) of at least one of following OpenAccess objects: oaBlockage, oaBoundary, oaRow, and oaMarker. Any information about these objects will not be translated into the generated stream file. Use the '-objectMap' option to translate/preserve these objects using XStream.
+WARNING (XSTRM-35): The objects in the layer-purpose pair 'edgeLayer:drawing' are ignored. This is because the layer-purpose pair used in the design is not specified in the layer map file. Specify the layer-purpose pair in the layer map file and try again.
+
+Summary of Objects Translated:
+	Scalar Instances:                       13
+	Array Instances:                        0
+	Polygons:                               0
+	Paths:                                  0
+	Rectangles:                             1012
+	Lines:                                  0
+	Arcs:                                   0
+	Donuts:                                 0
+	Dots:                                   0
+	Ellipses:                               0
+	Boundaries:                             0
+	Area Blockages:                         0
+	Layer Blockages:                        0
+	Area Halos:                             0
+	Markers:                                0
+	Rows:                                   0
+	Stitch:                                 0
+	Standard Vias                           58
+	Custom Vias:                            0
+	CdsGen Vias:                            0
+	Pathsegs:                               89
+	Text:                                   0
+	TextDisplay:                            0
+	Cells:                                  30
+
+Elapsed Time: 0.5s   User Time: 0.2s   CPU Time: 0.1s   Peak VM: 6644KB
+INFO (XSTRM-234): Translation completed. '0' error(s) and '3' warning(s) found.
+
+
+Pegasus 23.20-p013 kUffN8tUXSuO5H3Ahy4hXg 2024-08-11 22:59:29 15482 noivl-steja
+Copyright 2024 Cadence Design Systems, Inc.
+All rights reserved worldwide.
+
+INFO:    Command Line Options: -lvs -top_cell OpAmp -log_dir LOGS -source_top_cell OpAmp -spice /servers/esd_noida/steja/Basic_Analog_Flow/final/CAICDF/solutions/module6/LVSrun/OpAmp.spi -qrc_data -control /servers/esd_noida/steja/Basic_Analog_Flow/final/CAICDF/solutions/module6/LVSrun/pegasuslvsctl -ui_data -gdb_data /servers/esd_noida/steja/Basic_Analog_Flow/final/CAICDF/solutions/module6/LVSrun/.technology.rul
+INFO:    Launch host CPU: Model: Intel(R) Xeon(R) CPU E5-2697 v3 @ 2.60GHz, OS: Red Hat Enterprise Linux Workstation release 7.6 (Maipo), Logical cores: 2, Physical cores: 2, Cache: 35840 KB, CPU Speed: 2600 MHz
+         Launch host Memory: MemTotal: 7821 MB,  MemFree: 714 MB,  SwapTotal: 8191 MB,  SwapFree: 6864 MB,  VmallocTotal: 33554431 MB,  VmallocUsed: 147 MB
+INFO:    Current path: /servers/esd_noida/steja/Basic_Analog_Flow/final/CAICDF/solutions/module6/LVSrun
+INFO:    Run directory same as current path
+INFO:    Log directory: /servers/esd_noida/steja/Basic_Analog_Flow/final/CAICDF/solutions/module6/LVSrun/LOGS
+INFO:    PVL parsing results:
+WARNING: In technology 'gpdk045_pvs', the rule set 'default' is not a Pegasus rule set.
+It will be accepted for this run but should be changed to a pegasusRuleSet.
+WARNING: TEXT_DEPTH at line 87 in file /servers/esd_noida/steja/Basic_Analog_Flow/final/CAICDF/GPDK045/pvs/./pvlLVS.rul is skipped. It is set in control file.
+WARNING: MASK_SVDB_DIR at line 88 in file /servers/esd_noida/steja/Basic_Analog_Flow/final/CAICDF/GPDK045/pvs/./pvlLVS.rul is skipped. It is set in control file.
+
+INFO:    See "/servers/esd_noida/steja/Basic_Analog_Flow/final/CAICDF/solutions/module6/LVSrun/LOGS/pvl.log" for additional details.
+
+INFO:    Checking out 1 license(s) of feature: 'Pegasus_LVS_SP' version 22.2
+INFO:    License checkout successful ... 2024-08-11 22:59:34
+
+INFO:    Checking out 1 license(s) of feature: 'Pegasus_mature_node' version 23.2
+INFO:    License checkout successful ... 2024-08-11 22:59:34
+WARNING: Neither hcell nor -automatch option is specified.
+INFO:    Worker 0 started on host noivl-steja with 1 cpu(s)
+         CPU: Model: Intel(R) Xeon(R) CPU E5-2697 v3 @ 2.60GHz, OS: Red Hat Enterprise Linux Workstation release 7.6 (Maipo), Logical cores: 2, Physical cores: 2, Cache: 35840 KB, CPU Speed: 2600 MHz
+         Memory: MemTotal: 7821 MB,  MemFree: 710 MB,  SwapTotal: 8191 MB,  SwapFree: 6864 MB,  VmallocTotal: 33554431 MB,  VmallocUsed: 147 MB
+INFO:    LVS report file: /servers/esd_noida/steja/Basic_Analog_Flow/final/CAICDF/solutions/module6/LVSrun/OpAmp.rep 
+INFO:    Extracted layout netlist: /servers/esd_noida/steja/Basic_Analog_Flow/final/CAICDF/solutions/module6/LVSrun/OpAmp.spi 
+INFO:    Setting LAYOUT_PATH to: /servers/esd_noida/steja/Basic_Analog_Flow/final/CAICDF/solutions/module6/LVSrun/OpAmp.gds.gz 
+INFO:    Setting LAYOUT_PRIMARY to: OpAmp 
+INFO:    Setting SCHEMATIC_PATH to: /servers/esd_noida/steja/Basic_Analog_Flow/final/CAICDF/solutions/module6/LVSrun/OpAmp.cdl 
+INFO:    Setting SCHEMATIC_PRIMARY to: OpAmp 
+
+INFO:    Gdsii input summary
+         File name: /servers/esd_noida/steja/Basic_Analog_Flow/final/CAICDF/solutions/module6/LVSrun/OpAmp.gds.gz
+         File size: 11993
+         Version: 5.0
+         Library name: MyOpAmp
+         Last modified: 2024-8-5 9:25:59
+         Last accessed: 2024-8-11 22:59:29
+         Database unit in user units: 0.0005
+         Database unit in meters: 5e-10
+         Magnification: 1 
+
+INFO:    Cell Summary:
+         ----------------------------------------------------------------------------
+             CELL                           INSTANCE    GEOMETRY      LABELS        HREF        FREF
+         ----------------------------------------------------------------------------
+         M2_M1_CDNS_723397369280                   0           3           0          12          12
+         M1_PO_CDNS_723397369281                   0           3           0           1           1
+         M3_M2_CDNS_723397369282                   0           3           0           2           2
+         M3_M2_CDNS_723397369283                   0           3           0           7           7
+         M2_M1_CDNS_723397369284                   0           3           0          10          10
+         M2_M1_CDNS_723397369285                   0           3           0           3           3
+         M2_M1_CDNS_723397369286                   0           3           0           2           2
+         M3_M2_CDNS_723397369287                   0           3           0           6           6
+         M2_M1_CDNS_723397369288                   0           3           0           1           1
+         M4_M3_CDNS_723397369289                   0           3           0           2           2
+         M3_M2_CDNS_7233973692810                  0           3           0           2           2
+         M4_M3_CDNS_7233973692811                  0           3           0           2           2
+         M4_M3_CDNS_7233973692812                  0           3           0           1           1
+         M3_M2_CDNS_7233973692813                  0           3           0           1           1
+         M3_M2_CDNS_7233973692814                  0           3           0           1           1
+         M2_M1_CDNS_7233973692815                  0           3           0           5           5
+         pmos2v_CDNS_723397369280                  0         188           7           1           1
+         nmos2v_CDNS_723397369281                  0         145           4           1           1
+         nmos2v_CDNS_723397369282                  0          39           4           1           1
+         pmoscap2v_CDNS_723397369283               0         227           7           1           1
+         pmos2v_CDNS_723397369284                  0          33           6           1           1
+         nmos2v_CDNS_723397369285                  0          34           2           1           1
+         nmos2v_CDNS_723397369286                  0          41           3           1           1
+         nmos2v_CDNS_723397369287                  0          55           4           1           1
+         pmos2v_CDNS_723397369288                  0          34           6           1           1
+         nmos2v_CDNS_723397369289                  0          35           2           1           1
+         pmos2v_CDNS_7233973692810                 0          38           7           1           1
+         pmos2v_CDNS_7233973692811                 0          33           6           1           1
+         nmos2v_CDNS_7233973692812                 0          49           4           1           1
+         OpAmp                                    71          95           6           1           1
+         ----------------------------------------------------------------------------
+         TOTAL CELL = 30;  INSTANCE = 71;  GEOMETRY = 1094;  LABEL = 68
+
+INFO:    Layer Summary:
+         ----------------------------------------------------------------------------
+             LAYER                       ID       HPN      HTC        FPN       FTC
+         ----------------------------------------------------------------------------
+         BJTdum                        1000         0         0         0         0
+         Bondpad                       1001         0         0         0         0
+         Cap3dum                       1002         0         0         0         0
+         CapMetal                      1003         0         0         0         0
+         Capdum                        1004         1         0         1         0
+         Cont                          1005       732         0       732         0
+         DIOdummy                      1006         0         0         0         0
+         IND2dummy                     1007         0         0         0         0
+         INDdummy                      1008         0         0         0         0
+         M1Resdum                      1009         0         0         0         0
+         M2Resdum                      1010         0         0         0         0
+         M3Resdum                      1011         0         0         0         0
+         M4Resdum                      1012         0         0         0         0
+         M5Resdum                      1013         0         0         0         0
+         M6Resdum                      1014         0         0         0         0
+         M7Resdum                      1015         0         0         0         0
+         M8Resdum                      1016         0         0         0         0
+         M9Resdum                      1017         0         0         0         0
+         M10Resdum                     1018         0         0         0         0
+         M11Resdum                     1019         0         0         0         0
+         Metal1                        1020        96         0       123         0
+         Metal2                        1021        41         0        81         0
+         Metal3                        1022        24         0        39         0
+         Metal4                        1023         7         0         9         0
+         Metal5                        1024         0         0         0         0
+         Metal6                        1025         0         0         0         0
+         Metal7                        1026         0         0         0         0
+         Metal8                        1027         0         0         0         0
+         Metal9                        1028         0         0         0         0
+         Metal10                       1029         0         0         0         0
+         Metal11                       1030         0         0         0         0
+         NPN2dum                       1031         0         0         0         0
+         NPN5dum                       1032         0         0         0         0
+         NPN10dum                      1033         0         0         0         0
+         NPNdummy                      1034         0         0         0         0
+         Nburied                       1035         0         0         0         0
+         Nhvt                          1036         0         0         0         0
+         Nimp                          1037        20         0        20         0
+         Nlvt                          1038         0         0         0         0
+         Nwell                         1039         6         0         6         0
+         Nzvt                          1040         0         0         0         0
+         Oxide                         1041        52         0        52         0
+         Oxide_thk                     1042        13         0        13         0
+         PNPdummy                      1043         0         0         0         0
+         Phvt                          1044         0         0         0         0
+         Pimp                          1045        19         0        19         0
+         Plvt                          1046         0         0         0         0
+         Poly                          1047        68         0        68         0
+         Psub                          1048         0         0         0         0
+         ResWdum                       1049         0         0         0         0
+         Resdum                        1050         0         0         0         0
+         SiProt                        1051         0         0         0         0
+         Via1                          1052         6         0        33         0
+         Via2                          1053         6         0        19         0
+         Via3                          1054         3         0         5         0
+         Via4                          1055         0         0         0         0
+         Via5                          1056         0         0         0         0
+         Via6                          1057         0         0         0         0
+         Via7                          1058         0         0         0         0
+         Via8                          1059         0         0         0         0
+         Via9                          1060         0         0         0         0
+         Via10                         1061         0         0         0         0
+         ind10_text                    1062         0         0         0         0
+         ind11_text                    1063         0         0         0         0
+         metal1_conn_text              1064         0        44         0        44
+         metal2_conn_text              1065         0         6         0         6
+         metal3_conn_text              1066         0         0         0         0
+         metal4_conn_text              1067         0         0         0         0
+         metal5_conn_text              1068         0         0         0         0
+         metal6_conn_text              1069         0         0         0         0
+         metal7_conn_text              1070         0         0         0         0
+         metal8_conn_text              1071         0         0         0         0
+         metal9_conn_text              1072         0         0         0         0
+         metal10_conn_text             1073         0         0         0         0
+         metal11_conn_text             1074         0         0         0         0
+         m1_label                      1076         0         0         0         0
+         m2_label                      1077         0         0         0         0
+         m3_label                      1078         0         0         0         0
+         m4_label                      1079         0         0         0         0
+         m5_label                      1080         0         0         0         0
+         m6_label                      1081         0         0         0         0
+         m7_label                      1082         0         0         0         0
+         m8_label                      1083         0         0         0         0
+         m9_label                      1084         0         0         0         0
+         m10_label                     1085         0         0         0         0
+         m11_label                     1086         0         0         0         0
+         m1_pin                        1087         0         0         0         0
+         m2_pin                        1088         0         0         0         0
+         m3_pin                        1089         0         0         0         0
+         m4_pin                        1090         0         0         0         0
+         m5_pin                        1091         0         0         0         0
+         m6_pin                        1092         0         0         0         0
+         m7_pin                        1093         0         0         0         0
+         m8_pin                        1094         0         0         0         0
+         m9_pin                        1095         0         0         0         0
+         m10_pin                       1096         0         0         0         0
+         m11_pin                       1097         0         0         0         0
+         text                          1098         0         0         0         0
+         nwell_conn_text              10645         0         6         0         6
+         nwell_label                  10765         0         6         0         6
+         nwell_pin                    10875         0         6         0         6
+         ----------------------------------------------------------------------------
+
+INFO:    CHIP EXTENT: 0 0 21180 22280
+
+
+INFO:    Ports ...
+         ========================================================================
+
+INFO:    Texts For Connectivity ...
+         ========================================================================
+         VSS (5.295, 0.040) 1065 OpAmp
+         VDD (5.295, 11.100) 1065 OpAmp
+         OUT (10.550, 5.590) 1065 OpAmp
+         INP (0.040, 1.855) 1065 OpAmp
+         INN (0.040, 3.715) 1065 OpAmp
+         IBIAS (0.040, 5.570) 1065 OpAmp
+         S_source_1 (0.840, 0.545) 1064 nmos2v_CDNS_7233973692812
+         G (0.375, -0.100) 1064 nmos2v_CDNS_7233973692812
+         D_drain_0 (-0.090, 0.545) 1064 nmos2v_CDNS_7233973692812
+         B_botTap (0.375, -0.420) 1064 nmos2v_CDNS_7233973692812
+         B_topTap (0.345, 0.472) 10765 pmos2v_CDNS_7233973692811
+         S_source_0 (-0.100, 0.233) 1064 pmos2v_CDNS_7233973692811
+         G (0.375, 0.565) 1064 pmos2v_CDNS_7233973692811
+         B_topTap (0.345, 0.885) 1064 pmos2v_CDNS_7233973692811
+         B_topTap (0.345, 0.472) 10875 pmos2v_CDNS_7233973692811
+         B_topTap (0.345, 0.472) 10645 pmos2v_CDNS_7233973692811
+         B_topTap (0.365, 0.472) 10765 pmos2v_CDNS_7233973692810
+         S_source_0 (-0.090, 0.233) 1064 pmos2v_CDNS_7233973692810
+         G (0.375, 0.565) 1064 pmos2v_CDNS_7233973692810
+         D_drain_1 (0.850, 0.233) 1064 pmos2v_CDNS_7233973692810
+         B_topTap (0.365, 0.885) 1064 pmos2v_CDNS_7233973692810
+         B_topTap (0.365, 0.472) 10875 pmos2v_CDNS_7233973692810
+         B_topTap (0.365, 0.472) 10645 pmos2v_CDNS_7233973692810
+         S_source_0 (-0.090, 0.750) 1064 nmos2v_CDNS_723397369289
+         B_botTap (0.335, -0.420) 1064 nmos2v_CDNS_723397369289
+         B_topTap (0.335, 0.472) 10765 pmos2v_CDNS_723397369288
+         S_source_0 (-0.090, 0.233) 1064 pmos2v_CDNS_723397369288
+         G (0.375, 0.565) 1064 pmos2v_CDNS_723397369288
+         B_topTap (0.335, 0.885) 1064 pmos2v_CDNS_723397369288
+         B_topTap (0.335, 0.472) 10875 pmos2v_CDNS_723397369288
+         B_topTap (0.335, 0.472) 10645 pmos2v_CDNS_723397369288
+         S_source_0 (-0.090, 0.750) 1064 nmos2v_CDNS_723397369287
+         G (0.375, -0.100) 1064 nmos2v_CDNS_723397369287
+         D_drain_1 (0.850, 0.750) 1064 nmos2v_CDNS_723397369287
+         B_botTap (0.365, -0.420) 1064 nmos2v_CDNS_723397369287
+         S_source_0 (-0.100, 0.750) 1064 nmos2v_CDNS_723397369286
+         G (0.375, -0.100) 1064 nmos2v_CDNS_723397369286
+         B_botTap (0.345, -0.420) 1064 nmos2v_CDNS_723397369286
+         D_drain_1 (0.850, 0.750) 1064 nmos2v_CDNS_723397369285
+         B_botTap (0.405, -0.420) 1064 nmos2v_CDNS_723397369285
+         B_topTap (0.405, 0.472) 10765 pmos2v_CDNS_723397369284
+         G (0.375, 0.565) 1064 pmos2v_CDNS_723397369284
+         D_drain_1 (0.850, 0.233) 1064 pmos2v_CDNS_723397369284
+         B_topTap (0.405, 0.885) 1064 pmos2v_CDNS_723397369284
+         B_topTap (0.405, 0.472) 10875 pmos2v_CDNS_723397369284
+         B_topTap (0.405, 0.472) 10645 pmos2v_CDNS_723397369284
+         B_tapRight (3.397, 3.158) 10765 pmoscap2v_CDNS_723397369283
+         S_source_0 (-0.090, 3.158) 1064 pmoscap2v_CDNS_723397369283
+         G (3.158, 6.415) 1064 pmoscap2v_CDNS_723397369283
+         D_drain_1 (6.405, 3.158) 1064 pmoscap2v_CDNS_723397369283
+         B_tapRight (6.885, 3.158) 1064 pmoscap2v_CDNS_723397369283
+         B_tapRight (3.397, 3.158) 10875 pmoscap2v_CDNS_723397369283
+         B_tapRight (3.397, 3.158) 10645 pmoscap2v_CDNS_723397369283
+         S_source_1 (0.240, 0.545) 1064 nmos2v_CDNS_723397369282
+         G (0.075, -0.100) 1064 nmos2v_CDNS_723397369282
+         D_drain_0 (-0.090, 0.545) 1064 nmos2v_CDNS_723397369282
+         B_botTap (0.075, -0.420) 1064 nmos2v_CDNS_723397369282
+         S_source_0 (-0.090, 3.440) 1064 nmos2v_CDNS_723397369281
+         G (0.375, 6.980) 1064 nmos2v_CDNS_723397369281
+         D_drain_1 (0.840, 3.440) 1064 nmos2v_CDNS_723397369281
+         B_botTap (0.375, -0.420) 1064 nmos2v_CDNS_723397369281
+         B_topTap (0.075, 5.240) 10765 pmos2v_CDNS_723397369280
+         S_source_0 (-0.090, 5.000) 1064 pmos2v_CDNS_723397369280
+         G (0.075, 10.100) 1064 pmos2v_CDNS_723397369280
+         D_drain_1 (0.240, 5.000) 1064 pmos2v_CDNS_723397369280
+         B_topTap (0.075, 10.420) 1064 pmos2v_CDNS_723397369280
+         B_topTap (0.075, 5.240) 10875 pmos2v_CDNS_723397369280
+         B_topTap (0.075, 5.240) 10645 pmos2v_CDNS_723397369280
+
+INFO:    Texts For SELECT -LABEL ...
+         ========================================================================
+
+INFO:    Texts For EXPAND_TEXT_ORIGIN ...
+         ========================================================================
+
+INFO:    Texts For DFM_TEXT ...
+         ========================================================================
+
+INFO:    Texts For Device Text Model Layer ...
+         ========================================================================
+
+INFO:    Texts For Device Text Property Layer ...
+         ========================================================================
+
+INFO:    Layer Summary(Texts For Connectivity):
+         ----------------------------------------------------------------------------
+             LAYER                       ID       TEXTS
+         ----------------------------------------------------------------------------
+         metal1_conn_text              1064        44
+         metal2_conn_text              1065         6
+         nwell_conn_text              10645         6
+         nwell_label                  10765         6
+         nwell_pin                    10875         6
+         ----------------------------------------------------------------------------
+
+INFO:    Layer Summary(Texts For SELECT -LABEL):
+         ----------------------------------------------------------------------------
+             LAYER                       ID       TEXTS
+         ----------------------------------------------------------------------------
+         ----------------------------------------------------------------------------
+
+INFO:    Layer Summary(Texts For EXPAND_TEXT_ORIGIN):
+         ----------------------------------------------------------------------------
+             LAYER                       ID       TEXTS
+         ----------------------------------------------------------------------------
+         ----------------------------------------------------------------------------
+
+INFO:    Layer Summary(Texts For DFM_TEXT):
+         ----------------------------------------------------------------------------
+             LAYER                       ID       TEXTS
+         ----------------------------------------------------------------------------
+         ----------------------------------------------------------------------------
+
+INFO:    Expanded Cell Summary
+         M1_PO_CDNS_723397369281 is expanded.
+         M2_M1_CDNS_723397369288 is expanded.
+         M4_M3_CDNS_7233973692812 is expanded.
+         M3_M2_CDNS_7233973692813 is expanded.
+         M3_M2_CDNS_7233973692814 is expanded.
+         pmos2v_CDNS_723397369280 is expanded.
+INFO:    Status: Runset 100% complete as of 2024-08-11 22:59:35   Elapsed: 00:00:02
+         Worker: Active CPUs  Total Mem(MB)  Active Mem(MB)  CPU time(s)
+              0:    1 /   1             31              22            1
+INFO:	 Status: Finishing as of 2024-08-11 22:59:35   Elapsed: 00:00:02   CPU time[s]: 2
+INFO:    Resource usage by worker at exit:
+                  CPU      Elapsed  CPUs       CPU       Peak        Peak engine
+         Worker:  time[s]  time[s]  Allocated  usage[%]  Memory[MB]  Memory[MB]
+              0:        1        2          1     64.69          31           22
+         Worker resource usage  summary: Total CPU[s]: 1  Run duration[s]: 2  Max peak memory[MB]: 31
+         Worker CPU utilization summary: 1 of 2 available CPU seconds (50.00%) with 1 average available CPU(s)
+INFO:    Extraction result: CLEAN (Reporter)
+INFO:    Generating summary in /servers/esd_noida/steja/Basic_Analog_Flow/final/CAICDF/solutions/module6/LVSrun/OpAmp.sum
+INFO:    All selected rules completed
+         Total CPU Time                    : 2(s)
+         Total Real Time                   : 2(s)
+         Total Original Geometry           : 1094(1220)
+         Total ERC RuleChecks              : 0
+         Total ERC Results                 : 0 (0)
+INFO:    Pegasus extracted connectivity database creation started
+INFO:    CmdLine: /grid/cic/install_support/PEGASUS/PEGASUS23/PEGASUS23.20.000/lnx86/tools.lnx86/Pegasus/bin/64bit/edbToEcdb -kf -edb OpAmp_15482.db -ecdb ./ -topcell OpAmp -netlist /servers/esd_noida/steja/Basic_Analog_Flow/final/CAICDF/solutions/module6/LVSrun/svdb/OpAmp.net -layermap /servers/esd_noida/steja/Basic_Analog_Flow/final/CAICDF/solutions/module6/LVSrun/svdb/OpAmp.ecdbmap -textmap /servers/esd_noida/steja/Basic_Analog_Flow/final/CAICDF/solutions/module6/LVSrun/svdb/OpAmp.ports -dependmap OpAmp.lmap.perc -kvp ifs:t9M -lvsfile /servers/esd_noida/steja/Basic_Analog_Flow/final/CAICDF/solutions/module6/LVSrun/svdb/OpAmp.lvsfile -saveFloatingNets .OpAmp.info.softchk 
+INFO:    Opening layer file 'OpAmp_15482.db/__layer'...
+INFO:    Loading layer map file '/servers/esd_noida/steja/Basic_Analog_Flow/final/CAICDF/solutions/module6/LVSrun/svdb/OpAmp.ecdbmap'...
+INFO:    Loading text map file '/servers/esd_noida/steja/Basic_Analog_Flow/final/CAICDF/solutions/module6/LVSrun/svdb/OpAmp.ports'...
+INFO:    Loading dependency map file 'OpAmp.lmap.perc'...
+INFO:    Pre loading edb directory contents...
+INFO:    ECDB file name './/.OpAmp.ecdb'...
+INFO:    Loading lvs file '/servers/esd_noida/steja/Basic_Analog_Flow/final/CAICDF/solutions/module6/LVSrun/svdb/OpAmp.lvsfile'...
+INFO:    Writing db header information...(0s)
+INFO:    Transfering cdl structures to ecdb structures...
+INFO:    Read Netlist (32 threads)...
+INFO:      DONE - (1s)
+INFO:    Process (32 threads)...
+INFO:    Cell(       7):   4% Done...(1s), M4_M3_CDNS_723397369289                 
+INFO:    Cell(       8):   8% Done...(1s), M3_M2_CDNS_7233973692810                
+INFO:    Cell(       6):  12% Done...(1s), M3_M2_CDNS_723397369287                 
+INFO:    Cell(       3):  16% Done...(1s), M2_M1_CDNS_723397369284                 
+INFO:    Cell(       5):  20% Done...(1s), M2_M1_CDNS_723397369286                 
+INFO:    Cell(      10):  25% Done...(1s), M2_M1_CDNS_7233973692815                
+INFO:    Cell(       0):  29% Done...(1s), M2_M1_CDNS_723397369280                 
+INFO:    Cell(       9):  33% Done...(1s), M4_M3_CDNS_7233973692811                
+INFO:    Cell(       4):  37% Done...(1s), M2_M1_CDNS_723397369285                 
+INFO:    Cell(      21):  41% Done...(1s), pmos2v_CDNS_7233973692811               
+INFO:    Cell(      11):  45% Done...(1s), nmos2v_CDNS_723397369281                
+INFO:    Cell(      22):  50% Done...(1s), nmos2v_CDNS_7233973692812               
+INFO:    Cell(      19):  54% Done...(1s), nmos2v_CDNS_723397369289                
+INFO:    Cell(      15):  58% Done...(1s), nmos2v_CDNS_723397369285                
+INFO:    Cell(      20):  62% Done...(1s), pmos2v_CDNS_7233973692810               
+INFO:    Cell(      14):  66% Done...(1s), pmos2v_CDNS_723397369284                
+INFO:    Cell(      16):  70% Done...(1s), nmos2v_CDNS_723397369286                
+INFO:    Cell(      17):  75% Done...(1s), nmos2v_CDNS_723397369287                
+INFO:    Cell(      23):  79% Done...(1s), OpAmp                                   
+INFO:    Cell(       1):  83% Done...(2s), M3_M2_CDNS_723397369282                 
+INFO:    Cell(       2):  87% Done...(2s), M3_M2_CDNS_723397369283                 
+INFO:    Cell(      18):  91% Done...(2s), pmos2v_CDNS_723397369288                
+INFO:    Cell(      13):  95% Done...(2s), pmoscap2v_CDNS_723397369283             
+INFO:    Cell(      12): 100% Done...(3s), nmos2v_CDNS_723397369282                
+INFO:      DONE - (2s)
+INFO:    Cells creation time: (3s)
+INFO:    Write netlist items...         (3s)
+INFO:    Saving name table to db...
+INFO:    Save device templates to the db...
+INFO:    Save connect rules to the db...
+INFO:    Write calculated header information to the top of file...
+INFO:    Erasing cdl subckts...          (0s)
+
+INFO:    edbToEcdb Header Information:
+  ECDB file version   : 38
+  DevTmpl offset      : 32717
+  Connect offset      : 32865
+  NameTable offset    : 29928
+  Layer Map offset    : 167
+  Cell Start offset   : 28248
+  Cell End offset     : 29928
+  Aux Data offset     : 33169
+  Labels     offset   : 0
+  Layer RW   offset   : 0
+  NVP                 : ifs:0.01 
+  Scale               : 8000
+  GDS Scale           : 2000
+  File size (static)  : 40175
+  File size (dynamic) : 0
+  Cell count          : 24
+  ECDB create time    : 3
+  EDB info            : 10
+  Top Cell            : OpAmp
+  EDB info (Trans)    : WRITTEN_64 W_NOT_NET_ORDER 
+
+INFO:    edbToEcdb Sizes written to disk (MB):
+  NameTbl             :     0.002789
+  Layers              :     0.005323
+  Shapes              :     0.009457
+  XYTree              :     0.007284
+  LookUpTbls          :     0.000973
+  Cells               :     0.001884
+  Insts               :     0.001404
+  Ports               :     0.000936
+  Nets                :     0.000568
+  Pins                :     0.000228
+  Labels              :     0.001708
+  DevTmpl             :     0.000148
+  Connect             :     0.000300
+  Header              :     0.000167
+  AuxData             :     0.007004
+  NvnLabels           :     0.000002
+---------------------------------
+  Total               :     0.040175
+
+INFO:    Manager summary: CPU(s): 0 Elapsed(s): 3 Peak memory(MB): 1136.93
+INFO:    Pegasus extracted connectivity database creation completed. 2024-08-11 22:59:39
+
+
+INFO:    Creating annotated GDS ...
+INFO:    Library name: OpAmp_15482
+INFO:    GDSII file name: /servers/esd_noida/steja/Basic_Analog_Flow/final/CAICDF/solutions/module6/LVSrun/svdb/OpAmp.agf
+INFO:    Cells to be written out: OpAmp
+INFO:    Source Library: OpAmp_15482
+INFO:    Status: Task in progress ...
+INFO:    Pegasus creating annotated GDS completed. 2024-08-11 22:59:35
+INFO:    Pegasus REPORTDB creation started...
+INFO:    Processing file OpAmp.rep
+INFO:    Manager summary: CPU(s): 0 Elapsed(s): 0 Peak memory(MB): 0.00
+INFO:    Pegasus REPORTDB creation completed. 2024-08-11 22:59:39
+
+
+INFO:    Comparing netlists ...
+INFO:    Setup VLDB (0s)
+INFO:    Init sch rules (0s)
+INFO:    Init lay rules (0s)
+INFO:    Init structures (0s)
+INFO:    Set cells to delete (0s)
+INFO:    Check expand on pin error (0s)
+INFO:    Reading schematic network
+INFO:     inputting cdl netlist /servers/esd_noida/steja/Basic_Analog_Flow/final/CAICDF/solutions/module6/LVSrun/OpAmp.cdl...
+INFO:     finished loading cdl netlist /servers/esd_noida/steja/Basic_Analog_Flow/final/CAICDF/solutions/module6/LVSrun/OpAmp.cdl (0s)
+INFO:     commit cdl netlist(s)...
+INFO:     finished committing cdl netlists (0s)
+INFO:    Post sch netlist rule processing (0s)
+INFO:    Reading layout network
+INFO:     inputting (fast parser) cdl netlist  /servers/esd_noida/steja/Basic_Analog_Flow/final/CAICDF/solutions/module6/LVSrun/svdb/OpAmp.net...
+INFO:     finished loading cdl netlist /servers/esd_noida/steja/Basic_Analog_Flow/final/CAICDF/solutions/module6/LVSrun/svdb/OpAmp.net (0s)
+INFO:     commit cdl netlist(s)...
+INFO:     finished committing cdl netlists (0s)
+INFO:    Post lay netlist rule processing (0s)
+INFO:    Processing blackBox rules (0s)
+INFO:    Processing bindings (0s)
+INFO:    Commit sch verilog netlist (0s)
+INFO:    Commit lay verilog netlist (0s)
+INFO:    Erase netlist data (0s)
+INFO:    Set blackbox cells (0s)
+INFO:    Sch put cells in memory (0s)
+INFO:    Sch update netlist rules (0s)
+INFO:    Sch set devices to delete (0s)
+INFO:    Sch adjust device pins (0s)
+INFO:    Sch calc hier order (0s)
+INFO:    Sch process inherited connections (0s)
+INFO:    Sch generate qrc files (0s)
+INFO:    Sch handle global pins (0s)
+INFO:    Sch apply rule actions with processed netlist (0s)
+INFO:    Sch process cell supply (0s)
+INFO:    Lay put cells in memory (0s)
+INFO:    Lay update netlist rules (0s)
+INFO:    Lay set devices to delete (0s)
+INFO:    Lay calc hier order (0s)
+INFO:    Lay process inherited connections (0s)
+INFO:    Lay generate qrc files (0s)
+INFO:    Lay handle global pins (0s)
+INFO:    Lay apply rule actions with processed netlist (0s)
+INFO:    Lay process cell supply (0s)
+INFO:    Check if interposer flow (0s)
+INFO:    Check binding file (0s)
+INFO:    Set topcell global pin indicator (0s)
+INFO:    Calculate preserve parameterized cells (0s)
+INFO:    Check generic device bindings (0s)
+INFO:    Calculate primitive device bindings (0s)
+INFO:    Remove unused device parameters (0s)
+INFO:    Set instances to flatten inside cells (0s)
+INFO:    Calculate parameters (0s)
+INFO:    Start sch normalization (0s)
+INFO:    Start lay normalization (0s)
+INFO:    Calculate primitive device bindings (2nd time) (0s)
+INFO:    Finalize binding (0s)
+INFO:    Sch join nets (0s)
+INFO:    Sch setup hier normalization (0s)
+INFO:    Sch remove feedthroughs and black box cell instances (0s)
+INFO:    Sch remove identical pins (0s)
+INFO:    Sch calc connection counts (0s)
+INFO:    Run genHierCells (0s)
+INFO:    Reset normalization flags (0s)
+INFO:    Lay join nets (0s)
+INFO:    Lay setup hier normalization (0s)
+INFO:    Lay remove feedthroughs and black box cell instances (0s)
+INFO:    Lay remove identical pins (0s)
+INFO:    Lay calc connection counts (0s)
+INFO:    Normalize sch (0s)
+INFO:    Read in color file (0s)
+INFO:    Set scale factor per cell (0s)
+INFO:    Setup property init rules (0s)
+INFO:    Write sch vldb file (0s)
+INFO:    Write lay vldb file (0s)
+INFO:    Apply preserve parameterized cells (0s)
+INFO:    Cleanup after VLDB processing (0s)
+WARNING (NVN-15002): Rule 'lvs_recognize_gates -all' was set, but either
+           the power net or the ground net (or both) was missing as follows.
+               schematic power
+               schematic ground
+               layout power
+               layout ground
+           Rule 'lvs_recognize_gates -all' requires both power and ground nets to operate.
+           These can be identified using rules 'lvs_power_name' and 'lvs_ground_name'.
+           Resetting rule to 'lvs_recognize_gates -simple'
+INFO (NVN-10007): Found ecdb file .OpAmp.ecdb, will use during comparison.
+
+INFO:    Cell comparison output format:
+            <Comparing|Top Cell> <Layout Cell> vs <Schematic Cell>
+               <Layout instances> insts vs <Schematic instances> insts  (<Time>)-<Status>
+
+         Top Cell  OpAmp vs OpAmp
+            9 insts vs 9 insts . . . . . . . . . . . . . . . . . . . . . . . . (0s)-match
+
+INFO:    Generating the LVS report...
+           Report Init (0s)
+           Load common queries (0s)
+           Create report (0s)
+           Cleanup (0s)
+INFO:    Report finished
+
+INFO:    Extraction Run Summary
+         Total CPU Time        : 2(s)
+         Total Real Time       : 2(s)
+         Peak Memory Used      : 31.00(M)
+
+
+INFO:    NVN Run Summary
+         Total CPU Time        : 1(s)
+         Total Real Time       : 1(s)
+         Peak Memory Used      : 259.37(M)
+
+
+INFO:    LVS Summary
+         Total CPU Time        : 3(s)
+         Total Real Time       : 3(s)
+         Peak Memory Used      : 259.37(M)
+
+    ########################################################
+    #                                                      #
+    # Run Result             : MATCH                       #
+    #                                                      #
+    # Run Summary            : [INFO]  ERC Results: Empty  #
+    #                        : [INFO]  Extraction Clean    #
+    #                                                      #
+    # ERC Summary File       : OpAmp.sum                   #
+    # Extraction Report File : OpAmp.rep                   #
+    # Comparison Report File : OpAmp.rep.cls               #
+    #                                                      #
+    ########################################################
+
+
+INFO:    Creating cross reference database ...
+INFO:    Manager summary: CPU(s): 0 Elapsed(s): 1 Peak memory(MB): 85.39
+INFO:    Checking in all SoftShare licenses.
+INFO:    Creating cross reference database completed. Sun Aug 11 22:59:41 2024
+
+
+Pegasus finished normally. 2024-08-11 22:59:41
+
+

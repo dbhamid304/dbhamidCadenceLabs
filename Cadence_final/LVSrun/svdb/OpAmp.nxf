@@ -1,0 +1,38 @@
+# XXXX: Net Cross Reference (nxf) (File format 1)
+# XXXX: Layout Primary OpAmp
+# XXXX: End of header.
+% MN 4 MN 4 
+0 D 0 D
+0 G 0 G
+0 S 0 S
+0 B 0 B
+% MP 4 MP 4 
+0 D 0 D
+0 G 0 G
+0 S 0 S
+0 B 0 B
+% M 4 M 4 
+0 D 0 D
+0 G 0 G
+0 S 0 S
+0 B 0 B
+% OpAmp 6 OpAmp 6 
+0 8 0 net1
+0 X56/D_drain_1 0 net1
+0 9 0 net16
+0 2 0 net3
+0 IBIAS 0 IBIAS
+0 X64/G 0 IBIAS
+0 INN 0 INN
+0 INP 0 INP
+0 OUT 0 OUT
+0 X55/B_tapRight 0 OUT
+0 X55/D_drain_1 0 OUT
+0 VDD 0 VDD
+0 X60/B_topTap 0 VDD
+0 X63/B_topTap 0 VDD
+0 X62/B_topTap 0 VDD
+0 VSS 0 VSS
+0 X53/B_botTap 0 VSS
+0 X64/B_botTap 0 VSS
+0 X54/B_botTap 0 VSS

@@ -1,0 +1,35 @@
+
+
+***********************************************************
+* CDL produced by pvsBuildNetlist on Aug 11 22:59:28 2024 *
+***********************************************************
+
+
+*pvsViewList = auCdl schematic
+*pvsStopList = ("auCdl")
+*pvsSimName  = auCdl
+
+
+
+*.EXPAND_ON_M_FACTOR
+*.MEGA
+
+
+
+.subckt OpAmp IBIAS INN INP OUT VDD VSS
+*PVSCELL netlisted from MyOpAmp OpAmp schematic
+  MM3 net1 INN net16 VSS g45n2svt m=2 l=750n w=1.5u
+  MM4 net3 INP net16 VSS g45n2svt m=2 l=750n w=1.5u
+  MM5 net16 IBIAS VSS VSS g45n2svt m=1 l=150n w=1.09u
+  MM6 OUT IBIAS VSS VSS g45n2svt m=1 l=750n w=6.88u
+  MM7 IBIAS IBIAS VSS VSS g45n2svt m=1 l=750n w=1.09u
+  MM0 net3 net1 VDD VDD g45p2svt m=2 l=750n w=465n
+  MM1 net1 net1 VDD VDD g45p2svt m=2 l=750n w=465n
+  MM2 OUT net3 VDD VDD g45p2svt m=1 l=150n w=10u
+  MM8 OUT net3 OUT OUT g45pcap2 m=1 l=6.315u w=6.315u
+.ends OpAmp
+
+
+***********************************************************
+*             Completed at Aug 11 22:59:28 2024           *
+***********************************************************

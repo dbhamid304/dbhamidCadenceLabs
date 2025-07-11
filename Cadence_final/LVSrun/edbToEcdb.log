@@ -1,0 +1,17 @@
+
+/grid/cic/install_support/PEGASUS/PEGASUS23/PEGASUS23.20.000/lnx86/tools.lnx86/Pegasus/bin/64bit/edbToEcdb Output Summary
+========================================================================
+
+Delete EDB      : N
+EDB Library dir : OpAmp_15482.db
+ECDB dir        : ./
+Top Cell        : OpAmp
+CDL netlist     : /servers/esd_noida/steja/Basic_Analog_Flow/final/CAICDF/solutions/module6/LVSrun/svdb/OpAmp.net
+Layer map file  : /servers/esd_noida/steja/Basic_Analog_Flow/final/CAICDF/solutions/module6/LVSrun/svdb/OpAmp.ecdbmap
+Text map file   : /servers/esd_noida/steja/Basic_Analog_Flow/final/CAICDF/solutions/module6/LVSrun/svdb/OpAmp.ports
+Dependency map  : OpAmp.lmap.perc
+Lvs file        : /servers/esd_noida/steja/Basic_Analog_Flow/final/CAICDF/solutions/module6/LVSrun/svdb/OpAmp.lvsfile
+Float net file  : .OpAmp.info.softchk
+threads         : 32
+debug           : 0
+Source Library  : OpAmp_15482

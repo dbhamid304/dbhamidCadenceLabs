@@ -1,0 +1,9 @@
+(
+  ( nil 
+    repList  " auCdl schematic"
+    stopList " auCdl"
+  )
+  ( model
+    ("MyOpAmp/OpAmp/schematic" "OpAmp")
+  )
+)

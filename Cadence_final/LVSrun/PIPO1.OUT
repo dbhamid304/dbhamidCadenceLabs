@@ -1,0 +1,119 @@
+Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.08s.
+********************************************************************************
+Product   : Virtuoso(R) XStream Out
+Program   : @(#)$CDS: strmout version IC23.1-64b 07/09/2024 22:31 (cpgbld15) $
+          : sub-version  IC23.1-64b.ISR8.40 
+Started at: 11-Aug-2024  22:59:29
+User Name : steja
+Host Name : noivl-steja
+Directory : /servers/esd_noida/steja/Basic_Analog_Flow/final/CAICDF/solutions/module6
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+WARNING (XSTRM-20): Output Stream file '/servers/esd_noida/steja/Basic_Analog_Flow/final/CAICDF/solutions/module6/LVSrun/OpAmp.gds.gz' already exists. It will be overwritten.
+Loading gpdk045/libInit.il ...
+	Loading gpdk045/loadCxt.ile ... done!
+	Loading context 'gpdk045' from library 'gpdk045' ... done!
+	Loading context 'pdkUtils' from library 'gpdk045' ... done!
+	Loading gpdk045/gpdk045_customFilter.il ... done!
+	Loading gpdk045/libInitCustomExit.il ... 
+	Loading Environment Settings ...
+	Loading gpdk045/gpdk045_PDKRegistrations.il ... done!
+
+  *************************************************************           
+  *              Cadence Design Systems, Inc.                 *           
+  *                                                           *           
+  *                    Generic 45nm PDK                       *           
+  *                        (gpdk045)                          *           
+  *                                                           *           
+  *************************************************************           
+	
+
+	VERSION: 6.0 (09-September-2019)
+
+done!
+Loaded gpdk045/libInit.il successfully!
+INFO (XSTRM-217): Reading the layer map file, /servers/esd_noida/steja/Basic_Analog_Flow/final/CAICDF/GPDK045/gpdk045/gpdk045.layermap
+WARNING (XSTRM-333): The '-enableColoring' option will be ignored during XStream Out. This is because there is no color entry in the layer map and the object map file.
+INFO (XSTRM-280): The output file will be a compressed file because the file name has extension .gz
+INFO (XSTRM-162): You have not used the '-viaMap' option. If the OpenAccess design has native oaVia instances, use the '-viaMap' option for preserving oaVia instances in a XStream Out - XStream In round trip. Using the '-viaMap' option improves performance and VM usage of applications using the Streamed-In design.
+
+Summary of Options :
+library                                 MyOpAmp
+strmFile                                /servers/esd_noida/steja/Basic_Analog_Flow/final/CAICDF/solutions/module6/LVSrun/OpAmp.gds.gz
+topCell                                 OpAmp
+view                                    layout_placement
+runDir                                  /servers/esd_noida/steja/Basic_Analog_Flow/final/CAICDF/solutions/module6/LVSrun
+logFile                                 /servers/esd_noida/steja/Basic_Analog_Flow/final/CAICDF/solutions/module6/LVSrun/PIPO1.LOG
+techLib                                 MyOpAmp
+hierDepth                               32
+maxVertices                             2048
+layerMap                                /servers/esd_noida/steja/Basic_Analog_Flow/final/CAICDF/GPDK045/gpdk045/gpdk045.layermap
+userSkillFile                           /servers/esd_noida/steja/Basic_Analog_Flow/final/CAICDF/solutions/module6/LVSrun/strmout.il
+labelDepth                              32
+case                                    Preserve
+convertDot                              node
+convertPin                              geometryAndText
+
+INFO (XSTRM-223): 1. Translating stdVia gpdk045/M2_M1/layout as STRUCTURE M2_M1_CDNS_723397369280.
+INFO (XSTRM-223): 2. Translating stdVia gpdk045/M1_PO/layout as STRUCTURE M1_PO_CDNS_723397369281.
+INFO (XSTRM-223): 3. Translating stdVia gpdk045/M3_M2/layout as STRUCTURE M3_M2_CDNS_723397369282.
+INFO (XSTRM-223): 4. Translating stdVia gpdk045/M3_M2/layout as STRUCTURE M3_M2_CDNS_723397369283.
+INFO (XSTRM-223): 5. Translating stdVia gpdk045/M2_M1/layout as STRUCTURE M2_M1_CDNS_723397369284.
+INFO (XSTRM-223): 6. Translating stdVia gpdk045/M2_M1/layout as STRUCTURE M2_M1_CDNS_723397369285.
+INFO (XSTRM-223): 7. Translating stdVia gpdk045/M2_M1/layout as STRUCTURE M2_M1_CDNS_723397369286.
+INFO (XSTRM-223): 8. Translating stdVia gpdk045/M3_M2/layout as STRUCTURE M3_M2_CDNS_723397369287.
+INFO (XSTRM-223): 9. Translating stdVia gpdk045/M2_M1/layout as STRUCTURE M2_M1_CDNS_723397369288.
+INFO (XSTRM-223): 10. Translating stdVia gpdk045/M4_M3/layout as STRUCTURE M4_M3_CDNS_723397369289.
+INFO (XSTRM-223): 11. Translating stdVia gpdk045/M3_M2/layout as STRUCTURE M3_M2_CDNS_7233973692810.
+INFO (XSTRM-223): 12. Translating stdVia gpdk045/M4_M3/layout as STRUCTURE M4_M3_CDNS_7233973692811.
+INFO (XSTRM-223): 13. Translating stdVia gpdk045/M4_M3/layout as STRUCTURE M4_M3_CDNS_7233973692812.
+INFO (XSTRM-223): 14. Translating stdVia gpdk045/M3_M2/layout as STRUCTURE M3_M2_CDNS_7233973692813.
+INFO (XSTRM-223): 15. Translating stdVia gpdk045/M3_M2/layout as STRUCTURE M3_M2_CDNS_7233973692814.
+INFO (XSTRM-223): 16. Translating stdVia gpdk045/M2_M1/layout as STRUCTURE M2_M1_CDNS_7233973692815.
+INFO (XSTRM-223): 17. Translating cellview gpdk045/pmos2v/layout as STRUCTURE pmos2v_CDNS_723397369280.
+INFO (XSTRM-223): 18. Translating cellview gpdk045/nmos2v/layout as STRUCTURE nmos2v_CDNS_723397369281.
+INFO (XSTRM-223): 19. Translating cellview gpdk045/nmos2v/layout as STRUCTURE nmos2v_CDNS_723397369282.
+INFO (XSTRM-223): 20. Translating cellview gpdk045/pmoscap2v/layout as STRUCTURE pmoscap2v_CDNS_723397369283.
+INFO (XSTRM-223): 21. Translating cellview gpdk045/pmos2v/layout as STRUCTURE pmos2v_CDNS_723397369284.
+INFO (XSTRM-223): 22. Translating cellview gpdk045/nmos2v/layout as STRUCTURE nmos2v_CDNS_723397369285.
+INFO (XSTRM-223): 23. Translating cellview gpdk045/nmos2v/layout as STRUCTURE nmos2v_CDNS_723397369286.
+INFO (XSTRM-223): 24. Translating cellview gpdk045/nmos2v/layout as STRUCTURE nmos2v_CDNS_723397369287.
+INFO (XSTRM-223): 25. Translating cellview gpdk045/pmos2v/layout as STRUCTURE pmos2v_CDNS_723397369288.
+INFO (XSTRM-223): 26. Translating cellview gpdk045/nmos2v/layout as STRUCTURE nmos2v_CDNS_723397369289.
+INFO (XSTRM-223): 27. Translating cellview gpdk045/pmos2v/layout as STRUCTURE pmos2v_CDNS_7233973692810.
+INFO (XSTRM-223): 28. Translating cellview gpdk045/pmos2v/layout as STRUCTURE pmos2v_CDNS_7233973692811.
+INFO (XSTRM-223): 29. Translating cellview gpdk045/nmos2v/layout as STRUCTURE nmos2v_CDNS_7233973692812.
+INFO (XSTRM-223): 30. Translating cellview MyOpAmp/OpAmp/layout_placement as STRUCTURE OpAmp.
+INFO (XSTRM-180): You have not used the '-objectMap' option. The design has instance(s) of at least one of following OpenAccess objects: oaBlockage, oaBoundary, oaRow, and oaMarker. Any information about these objects will not be translated into the generated stream file. Use the '-objectMap' option to translate/preserve these objects using XStream.
+WARNING (XSTRM-35): The objects in the layer-purpose pair 'edgeLayer:drawing' are ignored. This is because the layer-purpose pair used in the design is not specified in the layer map file. Specify the layer-purpose pair in the layer map file and try again.
+
+Summary of Objects Translated:
+	Scalar Instances:                       13
+	Array Instances:                        0
+	Polygons:                               0
+	Paths:                                  0
+	Rectangles:                             1012
+	Lines:                                  0
+	Arcs:                                   0
+	Donuts:                                 0
+	Dots:                                   0
+	Ellipses:                               0
+	Boundaries:                             0
+	Area Blockages:                         0
+	Layer Blockages:                        0
+	Area Halos:                             0
+	Markers:                                0
+	Rows:                                   0
+	Stitch:                                 0
+	Standard Vias                           58
+	Custom Vias:                            0
+	CdsGen Vias:                            0
+	Pathsegs:                               89
+	Text:                                   0
+	TextDisplay:                            0
+	Cells:                                  30
+
+Elapsed Time: 0.5s   User Time: 0.2s   CPU Time: 0.1s   Peak VM: 6644KB
+INFO (XSTRM-234): Translation completed. '0' error(s) and '3' warning(s) found.

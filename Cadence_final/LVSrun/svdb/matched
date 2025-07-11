@@ -1,0 +1,34 @@
+##############################################################################################################
+#####  
+#####                                       Pegasus LVS COMPARISON
+#####  
+#####  Version                       :   23.20-p013
+#####  NVN Run Start                 :   Sun Aug 11 22:59:39 2024
+#####  ERC Summary File              :   OpAmp.sum
+#####  Extraction Report File        :   OpAmp.rep
+#####  Comparison Report File        :   OpAmp.rep.cls
+#####  Top Cell                      :   OpAmp  <vs>  OpAmp
+#####  
+#####  Run Result                    :   MATCH
+#####  
+#####  Run Summary                   :   [INFO]  ERC Results: Empty
+#####                                :   [INFO]  Extraction Clean
+#####  
+#####  Layout Design                 :   MyOpAmp OpAmp layout_placement
+#####  Schematic File                :   /servers/esd_noida/steja/Basic_Analog_Flow/final/CAICDF/solutions/module6/LVSrun/OpAmp.cdl (cdl)
+#####  Rules File                    :   /servers/esd_noida/steja/Basic_Analog_Flow/final/CAICDF/solutions/module6/LVSrun/.technology.rul
+#####  Pin Swap File                 :   OpAmp.rep.cps
+#####  
+#####  Extraction CPU Time           :   0h 0m 2s - (2s)
+#####  Extraction Exec Time          :   0h 0m 2s - (2s)
+#####  Extraction Peak Memory Usage  :   31.00MB
+#####  NVN CPU Time                  :   0h 0m 0s - (0s)                 
+#####  NVN Exec Time                 :   0h 0m 1s - (1s)                 
+#####  NVN Peak Memory Usage         :   259.37MB
+#####  LVS Total CPU Time            :   0h 0m 2s - (2s)                 
+#####  LVS Total Exec Time           :   0h 0m 3s - (3s)                 
+#####  LVS Total Peak Memory Usage   :   259.37MB
+#####  
+##############################################################################################################
+
+

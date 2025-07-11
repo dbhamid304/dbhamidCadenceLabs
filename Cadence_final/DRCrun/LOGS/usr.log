@@ -1,0 +1,10 @@
+Pegasus 23.20-p013 kUffN8tUXSuO5H3Ahy4hXg 2024-08-11 14:46:41 7964 noivl-steja
+Copyright 2024 Cadence Design Systems, Inc.
+All rights reserved worldwide.
+
+INFO:    Command Line Options: --log_dir LOGS -top_cell OpAmp -ui_data --control /servers/esd_noida/steja/Basic_Analog_Flow/final/CAICDF/solutions/module6/DRCrun/pegasusdrcctl /servers/esd_noida/steja/Basic_Analog_Flow/final/CAICDF/solutions/module6/DRCrun/.technology.rul
+INFO:    Launch host CPU: Model: Intel(R) Xeon(R) CPU E5-2697 v3 @ 2.60GHz, OS: Red Hat Enterprise Linux Workstation release 7.6 (Maipo), Logical cores: 2, Physical cores: 2, Cache: 35840 KB, CPU Speed: 2600 MHz
+         Launch host Memory: MemTotal: 7821 MB,  MemFree: 601 MB,  SwapTotal: 8191 MB,  SwapFree: 6873 MB,  VmallocTotal: 33554431 MB,  VmallocUsed: 147 MB
+INFO:    Current path: /servers/esd_noida/steja/Basic_Analog_Flow/final/CAICDF/solutions/module6/DRCrun
+INFO:    Run directory same as current path
+INFO:    Log directory: /servers/esd_noida/steja/Basic_Analog_Flow/final/CAICDF/solutions/module6/DRCrun/LOGS

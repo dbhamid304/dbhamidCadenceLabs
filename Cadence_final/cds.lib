@@ -1,0 +1,13 @@
+# File Created by Salagrama Vishnu Teja at Tue Jul 23 21:27:03 2024
+# assisted by CdsLibEditor
+
+# Cadence libraries:
+DEFINE analogLib ${CDSHOME}/tools/dfII/etc/cdslib/artist/analogLib
+DEFINE basic ${CDSHOME}/tools/dfII/etc/cdslib/basic
+DEFINE cdsDefTechLib ${CDSHOME}/tools/dfII/etc/cdsDefTechLib
+DEFINE sample ${CDSHOME}/tools/dfII/samples/cdslib/sample
+
+
+DEFINE gpdk045 /$WORKDIR/GPDK045/gpdk045
+DEFINE assura /$WORKDIR/GPDK045/assura
+DEFINE MyOpAmp /$WORKDIR/module7/MyOpAmp
